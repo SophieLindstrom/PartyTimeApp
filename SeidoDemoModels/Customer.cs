@@ -10,7 +10,7 @@ namespace SeidoDemoModels
     public class Customer
     {
         #region Uncomment to create the Data model
-        /*
+        
         [Key]
         [Column("CustomerID")]
         public Guid CustomerID { get; set; }
@@ -19,7 +19,7 @@ namespace SeidoDemoModels
         public string Comment { get; set; }
 
         public virtual List<Order> Orders { get; set; } = new List<Order>();
-        */
+        
         #endregion
 
         #region Uncomment to seed and query the Database

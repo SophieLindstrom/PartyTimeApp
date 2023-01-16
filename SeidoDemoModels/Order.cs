@@ -10,7 +10,7 @@ namespace SeidoDemoModels
     public class Order
     {
         #region Uncomment to create the Data model
-        /*
+        
         [Key]
         [Column("OrderID")]
         public Guid OrderID { get; set; }
@@ -20,7 +20,7 @@ namespace SeidoDemoModels
 
         [Column(TypeName = "nvarchar (200)")]
         public string Comment { get; set; }
-        */
+        
         #endregion
 
         #region Uncomment to seed and query the Database

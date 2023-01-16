@@ -19,11 +19,11 @@ namespace SeidoApplication
             BuildOptions();
 
             #region Uncomment to seed and query the Database
-            /*
+            
             SeedDataBase();
             QueryDatabaseAsync().Wait();
             QueryDatabaseWithLinq();
-            */
+            
             #endregion
 
             Console.WriteLine($"\nApplication finished");
@@ -50,7 +50,7 @@ namespace SeidoApplication
         }
 
         #region Uncomment to seed and query the Database
-        /*
+        
         private static void SeedDataBase()
         {
             using (var db = new SeidoDemoDbContext(_optionsBuilder.Options))
@@ -103,7 +103,7 @@ namespace SeidoApplication
                 Console.WriteLine($"\nInnerJoin Customer - Order via Join, Count: {list.Count()}");
             }
         }
-        */
+        
         #endregion
     }
 }
